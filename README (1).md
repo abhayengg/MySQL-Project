@@ -20,8 +20,8 @@ USE sql_project_p1;
 
 # Create Table
 CREATE TABLE retail_sales(
-				transactions_id	INT PRIMARY KEY,
-				sale_date DATE,
+		transactions_id	INT PRIMARY KEY,
+		sale_date DATE,
                 sale_time TIME,
                 customer_id INT,
                 gender	VARCHAR(100),
@@ -32,6 +32,8 @@ CREATE TABLE retail_sales(
                 cogs FLOAT,
                 total_sale INT
                 );
+
+  
 2. Data Exploration & Cleaning
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
