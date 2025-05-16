@@ -1,1 +1,0 @@
-SQL Retail Sales Project
